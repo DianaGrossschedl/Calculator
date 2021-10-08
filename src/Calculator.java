@@ -2,7 +2,7 @@ public class Calculator {
 
     public static void main(String[] args) {
 
-        int a = 1;
+        int a = 6;
         System.out.println(a);
 
         double d = 2;
@@ -17,5 +17,7 @@ public class Calculator {
         String s = "Text";
         System.out.println(s);
 
+        boolean even = a % 2 == 0;
+        System.out.println(even);
     }
 }
